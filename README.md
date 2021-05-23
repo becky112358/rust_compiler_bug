@@ -1,6 +1,8 @@
 # rust_compiler_bug
 
-Attempting to compile this code produces the following:
+https://github.com/rust-lang/rust/issues/84957
+
+### Code compilation output
 
 ```
 thread 'rustc' panicked at 'called `Option::unwrap()` on a `None` value', compiler\rustc_mir\src\borrow_check\region_infer\mod.rs:2136:35
